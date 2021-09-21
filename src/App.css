@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.mainc{
+  font-size: medium;
+  font-style: italic;
+  
+}
+
+.foot{
+  background-color: coral;
+  
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkgrey;
+  min-height: 10vh;
+}
+.left-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
