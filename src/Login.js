@@ -41,14 +41,16 @@ class Login extends React.Component{
                         value={this.state.password} 
                         />
 
+                        <Link to ='/'>
                         <br />
                         <button>Submit</button>
                         <br />
+                        </Link>
 
 
                         <p><b>Don't have an account yet?</b> 
-                        <Link to="/signup">
-                        <button>Sign up!</button>
+                        <Link to="/signup" style={{color:'blue',textDecoration:'underline'}}>
+                        Sign up
                         </Link>
                         </p>
 

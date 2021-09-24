@@ -26,6 +26,7 @@ class Signup extends React.Component{
         type === "checkbox"? this.setState({[name]:checked}): this.setState({[name]:value})
     }
 
+
     render(){
         return(
             <div>
